@@ -1,0 +1,68 @@
+#app .abc .vux-header,#app .unionpay_abc .vux-header{
+    h1{color: #333333!important; }  
+    .vux-header-left .left-arrow::before{border: 1px solid #333333;border-width: 2px 0 0 2px;} 
+} 
+
+#app .page{
+    //默认活动皮肤
+    &.default{background: url('~assets/images/abc/turntable/page_bg.jpg') 40px 40px repeat;
+        .body{background: url('~assets/images/abc/turntable/top_img.jpg') no-repeat;background-size: 100%;
+            .group-btn span{
+                &.coupon{background: url('~assets/images/abc/turntable/group_btn_coupon.png') no-repeat; background-size: 100%;}
+                &.goBuy{background: url('~assets/images/abc/turntable/group_btn_goBuy.png') no-repeat; background-size: 100%;}
+            }
+            .turntable {margin: 310px auto 0;background: url("~assets/images/abc/turntable/turntable_bg.png") bottom no-repeat;background-size: 100%;
+                .turnplate{ background-image: url("~assets/images/abc/turntable/turnplate-bg.png"); background-size: 100% 100%;
+                    i.pointer{background: url('~assets/images/abc/turntable/turnplate-pointer.png') no-repeat;background-size: 100%;}
+                    i.pointer-pay{background: url('~assets/images/abc/turntable/turnplate-pointer_pay.png') no-repeat;background-size: 100%;}
+                }
+            }
+            .rule{color:#ffffff;background: #7477ff;box-shadow:  2px 2px 5px #666;border-radius: 8px;
+                .title{color:#333333;}
+            }
+        }
+    }
+    //教师节活动皮肤
+    &.teacher{background: url('~assets/images/abc/teacher/page_bg.jpg') 40px 40px repeat;
+        .body{background: url('~assets/images/abc/teacher/top_img.jpg') no-repeat;background-size: 100%;
+            .group-btn{margin: 10px 40px!important;}
+            .group-btn span{color: #8b521a!important;height: 41px!important;width:124px!important ;
+                &.coupon{background: url('~assets/images/abc/teacher/group_btn_coupon.png') no-repeat; background-size: 100% 100%;}
+                &.goBuy{background: url('~assets/images/abc/teacher/group_btn_coupon.png') no-repeat; background-size: 100% 100%;}
+            }
+            .activity-sm{background: #f64a43;}
+            .turntable {width: 351px;margin: 170px auto 0;background: url("~assets/images/abc/teacher/turntable_bg.png") bottom no-repeat;background-size: 100%;
+                .banner{    width: 292px;   margin: 2px 0 0 33px;}
+                .turnplate{ background-image: url("~assets/images/abc/teacher/turnplate-bg.png"); background-size: 100% 100%;
+                    i.pointer{width: 78px;height: 94px;margin-top: -57px;background: url('~assets/images/abc/teacher/turnplate-pointer.png') no-repeat;background-size: 100%;}
+                    i.pointer-pay{background: url('~assets/images/abc/turntable/turnplate-pointer_pay.png') no-repeat;background-size: 100%;}
+                }
+            }
+            .change-p{margin-top: 10px;color: #ffffff;display: inline-block;width: 215px;height: 17px;background: url('~assets/images/abc/teacher/change_bg.png') center no-repeat;background-size: 100% ; }
+            .rule{color:#ffffff;border-radius: 4px;border:2px dotted #ffffff;
+                .title{background: none!important;left: 96px!important;font-size: 26px;}
+            }
+        }
+    }
+    //七夕活动皮肤
+    &.qx{background:#f48895;
+        .body{background: url('~assets/images/abc/qx/qx_bg.jpg') no-repeat;background-size: 100%;
+            .group-btn span{
+                &.coupon{background: url('~assets/images/abc/qx/group_btn_coupon.png') no-repeat; background-size: 100%;}
+                &.goBuy{background: url('~assets/images/abc/qx/group_btn_goBuy.png') no-repeat; background-size: 100%;}
+            }
+            .change-p{color: #ffffff;}
+            .turntable {margin: 460px auto 0;background: url("~assets/images/abc/qx/turntable_bg.png") bottom no-repeat;background-size: 100%;
+                .turnplate{ background-image: url("~assets/images/abc/qx/turnplate-bg.png"); background-size: 100% 100%;
+                    i.pointer{background: url('~assets/images/abc/turntable/turnplate-pointer.png') no-repeat;background-size: 100%;}
+                    i.pointer-pay{background: url('~assets/images/abc/turntable/turnplate-pointer_pay.png') no-repeat;background-size: 100%;}
+                }
+            }
+            .rule{color:#ffffff;background: #ff7b75;box-shadow:  2px 2px 0px #ef7973;border-radius: 8px;
+                .title{color:#de4b49;}
+            }
+        }
+    
+
+    }
+}
